@@ -17,9 +17,9 @@ Generate self signed certificates by calling `./create-certs.sh`
 
 ## run docker image
 
-   docker run -p 8443:8443 basic-auth-proxy:latest -origin https://example.com
-
-   curl -k https://127.0.0.1:8443
+    docker run -p 8443:8443 basic-auth-proxy:latest -origin https://example.com
+    
+    curl -k https://127.0.0.1:8443
 
 # usage
 
